@@ -1,4 +1,8 @@
 const express = require("express");
+const dotenv = require("dotenv");
+
+dotenv.config();
+console.log("JWT_SECRET =", process.env.JWT_SECRET);
 
 require("./config/db");
 
