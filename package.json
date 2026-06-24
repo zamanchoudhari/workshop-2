@@ -1,0 +1,19 @@
+{
+  "name": "first-proj",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Zaman Choudhari",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.7.0"
+  }
+}
